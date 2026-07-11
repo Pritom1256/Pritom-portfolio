@@ -583,10 +583,13 @@ section {
   }
 
   /* Stats */
+
   .stats-bar{
-    grid-template-columns:1fr;
-    gap:16px;
-  }
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    align-items: stretch;
+}
 
   /* Contact */
   .contact-card{
@@ -618,19 +621,25 @@ section {
     border: none;
   }
 
-  .stat-item{
+.stat-item{
     background: var(--surface);
     border: 1px solid var(--border);
     border-radius: 18px;
 
-    min-height: 135px;
+    height: 140px;       /* min-height এর বদলে height */
+    width: 100%;
+
     padding: 20px 15px;
 
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    flex-direction:column;
-  }
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    box-sizing: border-box;
+}
+  
 
   .stat-number{
     font-size: 2.4rem;
