@@ -4,7 +4,7 @@ A modern, responsive, and interactive personal portfolio website built with **HT
 
 ## 🌐 Live Demo
 
-🔗 **Live Website:** *(Add your GitHub Pages link here)*
+🔗 **Live Website:** https://pritom1256.github.io/Pritom-portfolio/
 
 Example:
 
